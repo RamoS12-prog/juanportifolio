@@ -1,0 +1,123 @@
+/* Estilos para o Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background: linear-gradient(to right, #ff6b46, #feb47b); /* Mesma cor do rodapé */
+}
+
+.sobreMIM, .projetos, .tecnologias {
+    font-size: 30px;
+    color: black;
+    text-decoration: none; /* Remove a linha abaixo do link */
+}
+
+/* Estilos gerais do Body */
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+/* Seção Sobre */
+.TXT-sobre {
+    margin-left: 60%;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.IMG {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+}
+
+.text-sobre1 {
+    margin-left: 50%;
+    margin-top: -20%;
+}
+
+.sobre {
+    font-size: 19px;
+}
+
+/* Seção Projetos */
+.IMGlogin {
+    margin-left: 6%;
+    width: 450px;
+}
+
+.IMGENTRADA, .IMGurna {
+    width: 450px;
+}
+
+.txtProjetos {
+    display: flex;
+    margin-left: 45%;
+}
+
+.projetos1 {
+    margin-left: 25%;
+    font-size: 25px;
+}
+
+.section2 {
+    margin-top: 20%;
+}
+
+/* Seção Tecnologias */
+.IMGHTML {
+    margin-left: 30%;
+    width: 200px;
+}
+
+.IMGcss {
+    width: 150px;
+}
+
+.IMGjavaS {
+    width: 350px;
+}
+
+.txtTecnologias {
+    margin-left: 45%;
+}
+
+/* Estilos do Footer */
+.divdafooter {
+    background: linear-gradient(to right, #ff6b46, #feb47b);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #ff6b46, #feb47b);
+}
+
+.nome {
+    font-size: 20px; /* Tamanho ajustado do nome */
+    color: black; /* Cor do nome */
+}
+
+.icones {
+    display: flex;
+    gap: 15px; /* Espaçamento entre os ícones */
+    color: black;
+}
+
+.icones a i {
+    font-size: 30px; /* Aumenta o tamanho dos ícones */
+    color: black; /* Deixa os ícones pretos */
+    text-decoration: none;
+}
+
+/* Estilos de texto e ícones */
+p {
+    font-size: 30px;
+    margin-left: 45%;
+}
+
+h1 {
+    font-size: 40px;
+}
